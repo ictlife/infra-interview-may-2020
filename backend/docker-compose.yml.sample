@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+  postgres:
+    image: kartoza/postgis:12.0
+    ports:
+      - 5434:5432
+    volumes:
+      - {PATH/TO/PGDATA}:/var/lib/postgresql/12/main
+    environment:
+      - POSTGRES_USER=postgres
+      - PGUSER=postgres
+      - POSTGRES_PASS=password
+      - PGPASSWORD=password
+      - POSTGRES_DBNAME=ictlife_infra_interview_may_2020
+      - PGDATABASE=ictlife_infra_interview_may_2020
+      - PGHOST=localhost
+      - ALLOW_IP_RANGE=0.0.0.0/0

@@ -1,0 +1,15 @@
+{
+  "name": "ictlife-infra-interview-may-2020",
+  "dependencies": {
+    "dotenv": "0.4.0",
+    "gulp": "3.9.1",
+    "gulp-shell": "0.2.11",
+    "run-sequence": "1.2.2"
+  },
+  "devDependencies": {
+    "minimist": "1.2.0"
+  },
+  "engines": {
+    "node": "8.9.0"
+  }
+}
